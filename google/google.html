@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- <div class="triangle"></div> -->
+
+    <header>
+        <nav>
+            <a href="">Gmail</a>
+            <a href="">이미지</a>
+            <a href=""><img src="grid.png" style="width:16px;"></a>
+            <a href=""><img class="account" src="https://lh3.googleusercontent.com/ogw/ADGmqu-35rZRgFeIr1qNWXqOOjLeDXEznZBha2kzS_-p=s64-c-mo"></a>
+        </nav>
+    </header>
+    <!--div의 향연.. 
+        div의 사용을 줄이자! x
+        div를 올바른 곳에 사용하자 o (O)
+    -->
+    <main>     
+        <div id='logo'>  
+            <img id='img_logo' src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+        </div>
+        <div id='content'>
+            <div id="container_content"> <!--구글에서 지은거 왠만하면 따라해봐 첨엔 그게 좋음 (???)-->  
+                <div id="container_search">
+                    <div class='icon'><img class = "ic_search" src = "ic_search.png" style="width: 15px;"></div>
+                    <input>
+                    <div class='icon'><img src = "ic_keyboard.png" style="width: 20px;"></div>
+                    <div class='icon'><img src = "ic_mic.png" style="width: 13px;"></div>
+                </div>
+
+                <div id="container_center">
+                    <div class='box'>Google 검색</div>
+                    <div class='box'>I'm Feeling Lucky</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id='container_f1'>
+            <p>대한민국</p>
+        </div>
+        <div id='container_f2'>
+            <!-- 이거 css로 깔끔하게 처리 가능(O) -->
+            <!-- margin에 auto라는 속성이 어떻게 동작하는지 보시면 됨(O) -->
+            <ul>
+                <li><a href="">광고</a></li>
+                <li><a href="">비즈니스</a></li>
+                <li><a href="">Google 정보</a></li>
+                <li class = "ful"><a href="">검색의 원리</a></li>
+                <li><a href="">개인정보처리방침</a></li>
+                <li><a href="">약관</a></li>
+                <li><a href="">설정</a></li>
+            </ul>
+            <!-- 위와 같이 수정 
+                <ul id = 'leftbox'>
+                <li><a href="">광고</a></li>
+                <li><a href="">비즈니스</a></li>
+                <li><a href="">Google 정보</a></li>
+                <li><a href="">검색의 원리</a></li>
+            </ul>
+            <ul id = 'rightbox'>
+                <li><a href="">개인정보처리방침</a></li>
+                <li><a href="">약관</a></li>
+                <li><a href="">설정</a></li>
+            </ul> -->
+        </div>
+    </footer>
+</body>
+
+</html>
